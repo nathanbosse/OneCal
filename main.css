@@ -1,0 +1,221 @@
+body {
+	background-color: #F8F8F8 !important;
+	color: #080808;
+}
+
+div.jumbotron {
+    
+	font-family: 'Roboto Condensed', sans-serif !important;
+	color: #FFF;
+    z-index: 2;
+	margin-bottom: 0px;
+	box-shadow: 4px 4px 3px #D3D3D3;
+}
+
+h1 {
+	font-size: 67px !important;
+	font-family: 'Roboto', sans-serif !important;
+}
+
+h2 {
+	font-size: 21px !important;
+	font-family: 'Roboto', sans-serif !important;
+}
+
+h3 {
+	font-size: 21px;
+	font-family: 'Roboto', sans-serif !important;
+}
+
+p, li, .navbar-brand {
+	font-family: 'Roboto', sans-serif !important;
+	font-size: 16px;
+}
+
+.img-iPhone {
+	padding-top: 10%;
+    width: 75%;
+}
+
+figure {
+	text-align: center; /*this makes the phone appear in the center of its column*/ 
+}
+
+.features-section {
+	padding: 2%;
+}
+
+#container {
+	padding: 5%;
+	background-color: #FFF;
+	box-shadow: 4px 4px 3px #D3D3D3;
+	border-radius: 5px;
+}
+
+section.subscribe-section {
+	background-image: url("images/bg-2.png");
+    background-size: cover;
+	padding: 5%;	
+}
+
+footer {
+	background-color: #000;
+	color: #FFF;
+	padding: 5%;
+}
+
+
+@media all and (max-width: 1200px) { /* screen size until 1200px */
+    .jumbotron h1 {
+        font-size: 67pt !important; /* 1.5x default size */
+    }
+}
+@media all and (max-width: 1000px) { /* screen size until 1000px */
+    .jumbotron h1 {
+        font-size: 50pt !important; /* 1.2x default size */
+        }
+    }
+@media all and (max-width: 500px) { /* screen size until 500px */
+    .jumbotron h1 {
+        font-size: 37pt !important; /* 0.8x default size */
+        }
+    }
+
+
+
+
+
+
+
+
+
+.fa-twitter-square:before {
+  content: "\f081";
+}
+
+.fa {
+  display: inline-block;
+  font-family: FontAwesome;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.social-media-links a.tw {
+  background: #53c3ee;
+}
+
+.social-media-links a.tw:hover, .social-media-links a.tw:focus {
+  background: #16a7df;
+}
+
+
+
+.highlight-image {
+    width: 200px;
+    padding-top: 40px;
+
+}
+
+.btn-app-store {
+    width: 250px;
+/*    position: relative;*/
+    opacity: 0.2;
+    filter: alpha(opacity=40); /* For IE8 and earlier */
+}
+
+.jumbotron-background-image {
+    padding-top: 30px;
+  background: #2e2f41 url(../images/bg-1.png) 0 0 no-repeat;
+  background-size: cover;
+  text-align: center;
+    position: relative;
+/*    height: 100vh;*/
+}
+.jumbotron-background-image:after {
+  content: " ";
+  z-index: -1;
+  display: block;
+  position: absolute;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.5);
+}
+ 
+
+.features-container {
+    padding: 5%;
+	background-color: #FFF;
+	box-shadow: 4px 4px 3px #D3D3D3;
+	border-radius: 5px;
+
+}
+
+.btn-danger {
+        background-color: #EC4239  !important;
+      border-color: #EC4239  !important;
+    box-sizing: border-box;
+        box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5) !important;
+    font-size: 16pt !important;
+}
+.btn-danger:hover {
+    background-color: #FF3B30 !important;
+    border-color: #FF3B30 !important;
+}
+
+.jumbotron .img-iPhone {
+/*    width: 50%*/
+    height: 75vh;
+    width: auto;
+    padding-top: 12.5vh;
+    padding-bottom: 12.5vh;
+}
+
+.jumbotron h1 {
+/*    font-size: 67pt !important;*/
+    font-weight: 300;
+}
+
+.features-container .btn-danger {
+    font-size: 16pt;
+}
+
+
+
+
+.jumbotron h3 {
+    color: #fff;
+}
+
+.footer-section {
+    background-color: #f8f8f8;
+}
+
+.black-haze {
+    color: #F7F7F7 !important;
+}
+
+.btn-primary {
+    background-color: #44CFB0  !important; 
+    border-color: #44CFB0  !important;
+        box-sizing: border-box;
+        box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5) !important;
+    font-size: 16pt !important;
+}
+.btn-primary:hover {
+    background-color: #50E3C2    !important; 
+    border-color: #50E3C2    !important;
+}
+
+.btn-default {
+        background-color: transparent !important; 
+    border-color: #FFFFFF !important;
+        box-sizing: border-box;
+        box-shadow: none !important;
+/*    font-size: 16pt !important;*/
+}
+}
