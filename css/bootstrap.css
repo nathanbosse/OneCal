@@ -53,9 +53,12 @@ a:hover {
 abbr[title] {
   border-bottom: 1px dotted;
 }
-b,
-strong {
+b, strong {
+/*    */
   font-weight: bold;
+}
+strong {
+    font-weight: normal !important;
 }
 dfn {
   font-style: italic;
@@ -1254,7 +1257,13 @@ h6 .small,
 }
 h1,
 .h1 {
-  font-size: 36px;
+  font-size: 67px;
+}
+@media (max-width: 768px) {
+   h1,
+.h1 {
+  font-size: 50px;
+}
 }
 h2,
 .h2 {
